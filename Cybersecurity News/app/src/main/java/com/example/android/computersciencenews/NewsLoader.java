@@ -1,0 +1,41 @@
+package com.example.android.computersciencenews;
+
+
+import java.util.List;
+
+import android.content.AsyncTaskLoader;
+import android.content.Context;
+
+/**
+ * Loads a list of news by using an AsyncTask to perform the
+ * network request to the given URL.
+ */
+public class NewsLoader extends AsyncTaskLoader<List<News>> {
+
+    /**
+     * Query URL
+     */
+    private String mUrl;
+
+    // Constructs a new NewsLoader by passing the context of the activity and the url to load data from
+    public NewsLoader(Context context, String url) {
+        super(context);
+        mUrl = url;
+    }
+
+    @Override
+    protected void onStartLoading() {
+        forceLoad();
+    }
+
+    @Override
+    public List<News> loadInBackground() {
+        if (mUrl == null) {
+            return null;
+        }
+
+        // Perform the network request, parse the response, and extract a list of news.
+        List<News> news = QueryUtils.fetchNewsData(mUrl);
+        return news;
+    }
+}

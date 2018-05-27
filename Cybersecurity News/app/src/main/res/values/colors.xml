@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000000</color>
+
+    <color name="colorPrimary">#00838F</color>
+    <color name="colorPrimaryDark">#0097A7</color>
+    <color name="colorAccent">#00838F</color>
+
+    <color name="cyber_aware_section">#42A5F5</color>
+    <color name="politics_section">#26C6DA</color>
+    <color name="technology_section">#5C6BC0</color>
+    <color name="us_news_section">#F44336</color>
+    <color name="opinion_section">#F06292</color>
+</resources>

@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Cybersecurity News</string>
+
+    <string name="no_news">No news found. Please reload the app or try later.</string>
+    <string name="no_internet_connection">No internet connection. Please check your internet connection and turn off airplane mode.</string>
+
+    <string name="section_example">Cyber Aware</string>
+    <string name="title_example">Is your social network a cybersecurity risk?</string>
+    <string name="author_example">Hannah Summers</string>
+    <string name="date_example">2018-02-27</string>
+
+    <string name="settings_menu_item">Settings</string>
+    <string name="settings_title">News Settings</string>
+
+    <!--Labels for section options-->
+    <string name="settings_section_cyber_aware_label">Cyber Aware</string>
+    <string name="settings_section_politics_label">Politics</string>
+    <string name="settings_section_technology_label">Technology</string>
+    <string name="settings_section_us_news_label">US News</string>
+    <string name="settings_section_opinion_label">Opinion</string>
+
+    <!--Values for section options-->
+    <string name="settings_section_cyber_aware_value">cyber-aware</string>
+    <string name="settings_section_politics_value">politics</string>
+    <string name="settings_section_technology_value">technology</string>
+    <string name="settings_section_us_news_value">us-news</string>
+    <string name="settings_section_opinion_value">commentisfree</string>
+
+    <!--Strings for section Preference -->
+    <string name="settings_section_label">Section</string>
+    <string name="settings_section_key">sectionId</string>
+    <string name="settings_section_default">@string/settings_section_cyber_aware_label</string>
+
+    <!--Labels for order by options-->
+    <string name="settings_order_by_newest_label">Newest</string>
+    <string name="settings_order_by_oldest_label">Oldest</string>
+    <string name="settings_order_by_relevance_label">Relevance</string>
+
+    <!--Values for order by options-->
+    <string name="settings_order_by_newest_value">newest</string>
+    <string name="settings_order_by_oldest_value">oldest</string>
+    <string name="settings_order_by_relevance_value">relevance</string>
+
+    <!--Strings for order by Preference -->
+    <string name="settings_order_by_label">Order By</string>
+    <string name="settings_order_by_key">order-by</string>
+    <string name="settings_order_by_default">@string/settings_order_by_newest_value</string>
+
+</resources>
